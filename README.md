@@ -4,7 +4,7 @@
 - 修改快捷方式的目标：如F:\CodeGenerater\Scarecrow.CodeGenerater.exe “F:\WorkSpace\TMS\CodeGenerater.json”
 - 每次从任务栏运行一下代码生成器，代码将直接生成到项目中
 
-> CodeGeneraterConfig.json
+> CodeGenerater.json
 ```json
 {
     "DbType": "MySql",//参考SqlSugar.DbType
