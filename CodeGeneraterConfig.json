@@ -1,0 +1,30 @@
+{
+    "DbType": "MySql",
+    "ConnectionString": "",
+    "TableNames": "只生成配置的这些表，多个表用,分隔。为空由生成所有表",
+    "TypeMapFile": "F:\\CodeGenerater\\Scarecrow.CodeGenerater\\MysqlTypeMap.json",
+    "IgnoreTablePrefix": [ "cap_", "cap." ],
+    "Templates": [
+        {
+            "OutPath": "F:\\CodeGenerater\\Scarecrow.CodeGenerater\\Scarecrow.Service\\_Service",
+            "RazorTemplate": "F:\\CodeGenerater\\Scarecrow.CodeGenerater\\Scarecrow.Service\\_Service.template",
+            "FileNameFormat": "{0}Service.cs",
+            "SubfolderDepth": "1",
+            "OverrideOldFile": false//生成的目标文件存在时是否覆盖文件
+        },
+        {
+            "OutPath": "F:\\CodeGenerater\\Scarecrow.CodeGenerater\\Scarecrow.IService\\_IService",
+            "RazorTemplate": "F:\\CodeGenerater\\Scarecrow.CodeGenerater\\Scarecrow.IService\\_IService.template",
+            "FileNameFormat": "I{0}Service.cs",
+            "SubfolderDepth": "1",
+            "OverrideOldFile": false
+        },
+        {
+            "OutPath": "F:\\CodeGenerater\\Scarecrow.CodeGenerater\\Scarecrow.Model\\_Model",
+            "RazorTemplate": "F:\\CodeGenerater\\Scarecrow.CodeGenerater\\Scarecrow.Model\\_Model.template",
+            "FileNameFormat": "{0}Model.cs",
+            "SubfolderDepth": "1",
+            "OverrideOldFile": true
+        }
+    ]
+}

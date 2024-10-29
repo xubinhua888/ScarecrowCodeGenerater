@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Scarecrow.CodeGenerater", "Scarecrow.CodeGenerater\Scarecrow.CodeGenerater.csproj", "{DB0311C7-3D60-46DD-9347-42BA6C6D5039}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "samples", "samples", "{80D13B58-7AF6-44B5-B816-5E1705E225AA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Scarecrow.Model", "Scarecrow.Model\Scarecrow.Model.csproj", "{A6CD1481-F4F8-4E7C-A2FF-5FFEB736C5FF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Scarecrow.Service", "Scarecrow.Service\Scarecrow.Service.csproj", "{384AEB58-E512-47DA-9FFA-78DFA469BF04}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Scarecrow.IService", "Scarecrow.IService\Scarecrow.IService.csproj", "{990553A2-AD6E-4ADB-A336-16B61D7C8732}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Generater Items", "Generater Items", "{F79A49AD-B10F-4E70-BB28-B5A3E2B4A63A}"
+	ProjectSection(SolutionItems) = preProject
+		CodeGeneraterConfig.json = CodeGeneraterConfig.json
+		MysqlTypeMap.json = MysqlTypeMap.json
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DB0311C7-3D60-46DD-9347-42BA6C6D5039}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB0311C7-3D60-46DD-9347-42BA6C6D5039}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB0311C7-3D60-46DD-9347-42BA6C6D5039}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB0311C7-3D60-46DD-9347-42BA6C6D5039}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6CD1481-F4F8-4E7C-A2FF-5FFEB736C5FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6CD1481-F4F8-4E7C-A2FF-5FFEB736C5FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6CD1481-F4F8-4E7C-A2FF-5FFEB736C5FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6CD1481-F4F8-4E7C-A2FF-5FFEB736C5FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{384AEB58-E512-47DA-9FFA-78DFA469BF04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{384AEB58-E512-47DA-9FFA-78DFA469BF04}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{384AEB58-E512-47DA-9FFA-78DFA469BF04}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{384AEB58-E512-47DA-9FFA-78DFA469BF04}.Release|Any CPU.Build.0 = Release|Any CPU
+		{990553A2-AD6E-4ADB-A336-16B61D7C8732}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{990553A2-AD6E-4ADB-A336-16B61D7C8732}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{990553A2-AD6E-4ADB-A336-16B61D7C8732}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{990553A2-AD6E-4ADB-A336-16B61D7C8732}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A6CD1481-F4F8-4E7C-A2FF-5FFEB736C5FF} = {80D13B58-7AF6-44B5-B816-5E1705E225AA}
+		{384AEB58-E512-47DA-9FFA-78DFA469BF04} = {80D13B58-7AF6-44B5-B816-5E1705E225AA}
+		{990553A2-AD6E-4ADB-A336-16B61D7C8732} = {80D13B58-7AF6-44B5-B816-5E1705E225AA}
+		{F79A49AD-B10F-4E70-BB28-B5A3E2B4A63A} = {80D13B58-7AF6-44B5-B816-5E1705E225AA}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {ACC8E972-C140-473A-A86C-EDBC536B796A}
+	EndGlobalSection
+EndGlobal

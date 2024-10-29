@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Scarecrow.CodeGenerater": {
+        "commandName": "Project",
+        "commandLineArgs": "F:\\CodeGenerater\\Scarecrow.CodeGenerater\\CodeGeneraterConfig.json"
+    }
+  }
+}
