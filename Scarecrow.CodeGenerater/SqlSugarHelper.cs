@@ -74,7 +74,7 @@ internal class SqlSugarHelper
                 }
                 else
                 {
-                    column.CSharpTypeName = "object";
+                    column.CSharpTypeName = client.Ado.DbBind.GetPropertyTypeName(column.DataType);
                 }
                 column.Init();
             }
@@ -85,12 +85,20 @@ internal class SqlSugarHelper
 
     private static Dictionary<string, string> GetTypeMap(GeneraterConfig config)
     {
-        if (config.TypeMapFile.IsNullOrWhiteSpace())
+        if (config.TypeMapFile.IsNullOrWhiteSpace() || !File.Exists(config.TypeMapFile))
         {
             return new Dictionary<string, string>();
         }
-        var mapJson = File.ReadAllText(config.TypeMapFile, System.Text.Encoding.UTF8);
-        var dic = JsonConvert.DeserializeObject<Dictionary<string, string>>(mapJson);
-        return new Dictionary<string, string>(dic, StringComparer.OrdinalIgnoreCase);
+        try
+        {
+            var mapJson = File.ReadAllText(config.TypeMapFile, System.Text.Encoding.UTF8);
+            var dic = JsonConvert.DeserializeObject<Dictionary<string, string>>(mapJson);
+            return new Dictionary<string, string>(dic, StringComparer.OrdinalIgnoreCase);
+        }
+        catch (Exception ex)
+        {
+            AnsiConsole.WriteException(ex);
+            return new Dictionary<string, string>();
+        }
     }
 }

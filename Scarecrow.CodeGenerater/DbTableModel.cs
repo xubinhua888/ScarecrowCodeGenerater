@@ -1,4 +1,9 @@
-﻿namespace Scarecrow.CodeGenerater;
+﻿using System.Collections;
+using System.Runtime.InteropServices.JavaScript;
+using System.Runtime.InteropServices;
+using System;
+
+namespace Scarecrow.CodeGenerater;
 
 public class DbTableModel : DbTableInfo
 {
@@ -27,24 +32,27 @@ public class DbColumnModel : DbColumnInfo
 {
     private static Dictionary<string, Type> _csharpType = new()
     {
+        {"int",typeof(int) },
+        {"bool",typeof(bool) },
+        {"string",typeof(string) },
+        {"DateTime",typeof(DateTime) },
+        {"decimal",typeof(decimal) },
+        {"double",typeof(double) },
+        {"Guid",typeof(Guid) },
         {"byte",typeof(byte) },
         {"sbyte",typeof(sbyte) },
-        {"int",typeof(int) },
-        {"uint",typeof(uint) },
-        {"long",typeof(long) },
-        {"ulong",typeof(ulong) },
+        {"Enum",typeof(Enum) },
         {"short",typeof(short) },
-        {"ushort",typeof(ushort) },
-        {"bool",typeof(bool) },
-        {"float",typeof(float) },
-        {"double",typeof(double) },
-        {"decimal",typeof(decimal) },
-        {"DateTime",typeof(DateTime) },
-        {"char",typeof(char) },
-        {"string",typeof(string) },
-        {"Guid",typeof(Guid) },
-        {"byte[]",typeof(byte[]) },
+        {"long",typeof(long) },
         {"object",typeof(object) },
+        {"byte[]",typeof(byte[]) },
+        {"float",typeof(float) },
+        {"uint",typeof(uint) },
+        {"ulong",typeof(ulong) },
+        {"ushort",typeof(ushort) },
+        {"char",typeof(char) },
+        {"DateTimeOffset",typeof(DateTimeOffset) },
+        {"TimeSpan",typeof(TimeSpan) }
     };
     private List<string> _nameWord = null;
 

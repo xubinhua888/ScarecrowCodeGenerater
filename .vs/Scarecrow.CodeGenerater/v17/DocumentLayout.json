@@ -1,0 +1,140 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "F:\\CodeGenerater\\ScarecrowCodeGenerater\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DB0311C7-3D60-46DD-9347-42BA6C6D5039}|Scarecrow.CodeGenerater\\Scarecrow.CodeGenerater.csproj|f:\\codegenerater\\scarecrowcodegenerater\\scarecrow.codegenerater\\dbtablemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB0311C7-3D60-46DD-9347-42BA6C6D5039}|Scarecrow.CodeGenerater\\Scarecrow.CodeGenerater.csproj|solutionrelative:scarecrow.codegenerater\\dbtablemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB0311C7-3D60-46DD-9347-42BA6C6D5039}|Scarecrow.CodeGenerater\\Scarecrow.CodeGenerater.csproj|F:\\CodeGenerater\\ScarecrowCodeGenerater\\scarecrow.codegenerater\\sqlsugarhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB0311C7-3D60-46DD-9347-42BA6C6D5039}|Scarecrow.CodeGenerater\\Scarecrow.CodeGenerater.csproj|solutionrelative:scarecrow.codegenerater\\sqlsugarhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB0311C7-3D60-46DD-9347-42BA6C6D5039}|Scarecrow.CodeGenerater\\Scarecrow.CodeGenerater.csproj|f:\\codegenerater\\scarecrowcodegenerater\\scarecrow.codegenerater\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB0311C7-3D60-46DD-9347-42BA6C6D5039}|Scarecrow.CodeGenerater\\Scarecrow.CodeGenerater.csproj|solutionrelative:scarecrow.codegenerater\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB0311C7-3D60-46DD-9347-42BA6C6D5039}|Scarecrow.CodeGenerater\\Scarecrow.CodeGenerater.csproj|f:\\codegenerater\\scarecrowcodegenerater\\scarecrow.codegenerater\\codegeneratercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB0311C7-3D60-46DD-9347-42BA6C6D5039}|Scarecrow.CodeGenerater\\Scarecrow.CodeGenerater.csproj|solutionrelative:scarecrow.codegenerater\\codegeneratercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F79A49AD-B10F-4E70-BB28-B5A3E2B4A63A}|Generater Items{F79A49AD-B10F-4E70-BB28-B5A3E2B4A63A}|F:\\CodeGenerater\\ScarecrowCodeGenerater\\CodeGeneraterConfig.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F79A49AD-B10F-4E70-BB28-B5A3E2B4A63A}|Generater Items{F79A49AD-B10F-4E70-BB28-B5A3E2B4A63A}|solutionrelative:CodeGeneraterConfig.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:133:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:134:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "F:\\CodeGenerater\\ScarecrowCodeGenerater\\Scarecrow.CodeGenerater\\Program.cs",
+              "RelativeDocumentMoniker": "Scarecrow.CodeGenerater\\Program.cs",
+              "ToolTip": "F:\\CodeGenerater\\ScarecrowCodeGenerater\\Scarecrow.CodeGenerater\\Program.cs",
+              "RelativeToolTip": "Scarecrow.CodeGenerater\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-30T02:50:52.429Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DbTableModel.cs",
+              "DocumentMoniker": "F:\\CodeGenerater\\ScarecrowCodeGenerater\\Scarecrow.CodeGenerater\\DbTableModel.cs",
+              "RelativeDocumentMoniker": "Scarecrow.CodeGenerater\\DbTableModel.cs",
+              "ToolTip": "F:\\CodeGenerater\\ScarecrowCodeGenerater\\Scarecrow.CodeGenerater\\DbTableModel.cs",
+              "RelativeToolTip": "Scarecrow.CodeGenerater\\DbTableModel.cs",
+              "ViewState": "AQIAADcAAAAAAAAAAAAswFAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-30T02:35:22.071Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CodeGeneraterCommand.cs",
+              "DocumentMoniker": "F:\\CodeGenerater\\ScarecrowCodeGenerater\\Scarecrow.CodeGenerater\\CodeGeneraterCommand.cs",
+              "RelativeDocumentMoniker": "Scarecrow.CodeGenerater\\CodeGeneraterCommand.cs",
+              "ToolTip": "F:\\CodeGenerater\\ScarecrowCodeGenerater\\Scarecrow.CodeGenerater\\CodeGeneraterCommand.cs",
+              "RelativeToolTip": "Scarecrow.CodeGenerater\\CodeGeneraterCommand.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAAwD4AAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T07:13:26.823Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SqlSugarHelper.cs",
+              "DocumentMoniker": "F:\\CodeGenerater\\ScarecrowCodeGenerater\\Scarecrow.CodeGenerater\\SqlSugarHelper.cs",
+              "RelativeDocumentMoniker": "Scarecrow.CodeGenerater\\SqlSugarHelper.cs",
+              "ToolTip": "F:\\CodeGenerater\\ScarecrowCodeGenerater\\Scarecrow.CodeGenerater\\SqlSugarHelper.cs",
+              "RelativeToolTip": "Scarecrow.CodeGenerater\\SqlSugarHelper.cs",
+              "ViewState": "AQIAACcAAAAAAAAAAAAYwEwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T06:44:11.779Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CodeGeneraterConfig.json",
+              "DocumentMoniker": "F:\\CodeGenerater\\ScarecrowCodeGenerater\\CodeGeneraterConfig.json",
+              "RelativeDocumentMoniker": "CodeGeneraterConfig.json",
+              "ToolTip": "F:\\CodeGenerater\\ScarecrowCodeGenerater\\CodeGeneraterConfig.json",
+              "RelativeToolTip": "CodeGeneraterConfig.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-29T06:43:26.474Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 5,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 5,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{5a4e9529-b6a0-46b5-be4f-0f0b239bc0eb}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
