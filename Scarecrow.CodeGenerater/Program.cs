@@ -4,6 +4,11 @@ internal class Program
 {
     static void Main(string[] args)
     {
+        var version = 0;
+        while (true)
+        {
+            version++;
+        }
         var app = new CommandApp<CodeGeneraterCommand>();
         app.Run(args);
     }
